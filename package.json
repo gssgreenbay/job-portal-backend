@@ -1,0 +1,15 @@
+{
+  "name": "talentbridge-cloudinary-job-portal",
+  "version": "1.0.0",
+  "description": "Modern employee employer resume upload and search website with Cloudinary storage",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}
